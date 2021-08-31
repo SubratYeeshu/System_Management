@@ -1,0 +1,59 @@
+<style>
+    .leftdiv {
+        float: left;
+        width: 40%;
+    }
+    
+    img {
+        border-radius: 50px;
+        height: 90%;
+        width: 80%;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    .leftdiv {
+        float: left;
+        width: 40%;
+    }
+    
+    .rightdiv {
+        float: right;
+        width: 60%;
+        margin-top: 20%;
+        margin-bottom: 30px;
+    }
+    
+    .btn {
+        -webkit-border-radius: 4;
+        -moz-border-radius: 4;
+        border-radius: 4px;
+        text-shadow: 1px 1px 3px #666666;
+        font-family: Courier New;
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 35px;
+        background: #f58f23;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        width: 150px;
+        height: 45px;
+    }
+    
+    .btn:hover {
+        background: #fcb63c;
+        text-decoration: none;
+    }
+</style>
+<%- include("partials/header"); -%>
+    <div class="leftdiv">
+        <img src="https://image.slidesharecdn.com/dsabook-180808152925/95/dsa-book-1-638.jpg?cb=1533742211" class="card__image" alt="" />
+    </div>
+    <div class="rightdiv">
+        <button class="btn">BUY</button>&nbsp;
+        <button class="btn">RENT</button>&nbsp;
+        <button class="btn">DOWNLOAD</button>
+    </div>
+    <h2>9.9$</h2>
+
+    <%- include("partials/footer"); -%>
